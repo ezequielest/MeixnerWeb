@@ -1,90 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<meta name="keywords" content="construccion de viviendas, departamentos, arquitectura, meixner group, edificios">
-	<meta name="description" content="Nos dedicamos a la proyección, dirección y construcción de obras, embarcándonos en desarrollos inmobiliarios">
-	<title>Meixner Group | Home</title>
-
-
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/fakeLoader.css">
-	<link rel="stylesheet" href="css/meixner.css">
-	<link rel="stylesheet" href="css/style-icon.css">
-	<link rel="stylesheet" href="css/owl.carousel.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/gridstack.css">
-	<link rel="stylesheet" href="css/gridstack-extra.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
-	<link rel="manifest" href="img/icon/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-</head>
-
-<body>
-
-<!--<div id="fakeloader"></div>-->
-
-<nav id="header" class="navbar navbar-fixed-top estilo" data-sr="wait 1.8s">
-	<div id="header-container" class="container sin-padding navbar-container">
-						<div class="navbar-header">
-								<!--<a id="brand" class="navbar-brand" href="#">
-									<img src="img/logos/meixner.png"/>
-								</a>-->
-							<div id="contenedor-logo" class="container logo">
-
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-								</button>
-								<a id="brand" class="navbar-brand hidden-xs grande" href="#">
-								     <img class="logoprincipal center-block" src="img/logos/meixnergroup-n-550x50.png" alt="Meixner Group"/>
-							    </a>
-				 				 <!--brand phones-->
-							    <a id="brand" class="navbar-brand visible-xs-block" href="#">
-								     <img src="img/logos/meixnergroup-n-220x20.png" alt="Meixner Group"/>
-							    </a>
-							</div>     
-						</div>
-	</div>
-	<div id="navbar" class="collapse navbar-collapse">
-
-					<!--<ul id="redes" class="nav navbar-nav navbar-right">
-						<li><a href="#"><span class="icon-facebook"></span><span class="sr-only">(current)</span></a></li>
-						<li><a href="#"><span class="icon-twitter"></span></a></li>
-						<li><a href="#"><span class="icon-linkedin2"></span></a></li>
-					</ul>-->
- 					<div class="container-menu">
-						<ul id="menu" class="nav navbar-nav">
-							<li class="active"><a href="#myCarousel">Home<span class="sr-only">(current)</span></a></li>
-							<li><a href="#meix">Quienes somos</a></li>
-							<li><a href="portfolio.html">Proyectos</a></li>
-							<li><a href="#servicios">Servicios</a></li>
-							<li><a href="#equipo">Equipo</a></li>
-							<li><a href="#prensa">Prensa</a></li>
-							<li><a href="#contacto">Contacto</a></li>
-						</ul>
-					</div>
-	</div>				
-</nav><!-- /.navbar -->
+<?php include('header.php'); ?>
 
 <section id="grid-home" class="darklue seccion">
         <div class="container">
@@ -161,7 +75,7 @@
 						<div class="carousel-caption">
 							<h1>Lorem ipsum dolor sit amet.</h1>
 							<h3>Et, voluptatem repellat.</h3>
-			        <a href="portfolio.html">PROYECTOS</a>
+			        <a href="portfolio.php">PROYECTOS</a>
 						</div>
 				</div>
 				<div class="item">
@@ -170,7 +84,7 @@
 						<div class="carousel-caption">
 							<h1>Nombre del Proyecto</h1>
 							<h3>Ubicacion</h3>
-			        <a href="portfolio.html">Ver proyectos</a>
+			        <a href="portfolio.php">Ver proyectos</a>
 						</div>
 				</div>
 				<div class="item">
@@ -179,7 +93,7 @@
 						<div class="carousel-caption">
 							<h1>Nombre del Proyecto</h1>
 							<h3>Ubicacion</h3>
-			        <a href="portfolio.html">Ver proyectos</a>
+			        <a href="portfolio.php">Ver proyectos</a>
 						</div>
 				</div>
 		</div>
@@ -214,7 +128,11 @@
 
 					<div class="col-md-12 segunda-col">
 							<p data-sr="wait 1s" class="quienes-somos">
-							Nuestra trayectoria nace con el inicio del siglo XXI y avala nuestro compromiso tanto con el presente como con el futuro de nuestros emprendimientos. De esta manera hemos conjugado las actividades de cada una de nuestras divisiones, <a href="mt2.html">“MT2arquitectura”</a>, <a href="alwind.html">“Alwind”</a>, <a href="decoba.html">“Decoba”</a>, <a href="dems.html">“Dems”</a>, <a href="drytech.html">“Drytech”,</a> <a href="hormeix.html">“Hormeix”</a>, <a href="matgroup.html">“Matgroup”</a> y <a href="urbanpro.html">“Urbanpro”</a>.
+							Nuestra trayectoria nace con el inicio del siglo XXI y 
+							avala nuestro compromiso tanto con el presente como con el futuro de
+							nuestros emprendimientos. De esta manera hemos conjugado las actividades
+							de cada una de nuestras divisiones, 
+							<span style="color:#E75457; text-transform: uppercase"><a href="mt2.php">“MT2”</a>, <a href="alwind.php">“Alwind”</a>, <a href="decoba.php">“Decoba”</a>, <a href="dems.php">“Dems”</a>, <a href="drytech.php">“Drytech”,</a> <a href="hormeix.php">“Hormeix”</a>, <a href="matgroup.php">“Matgroup”</a> y <a href="hochbau.php">Hochbau</a></span>.
 							</p>
 							
 					</div>
@@ -232,9 +150,14 @@
 		<div class="col-sm-5 col-sm-pull-7">
            	<div class="texto-video">
 				<h3 data-sr="wait 1s">Innovación</h3>
-				<p data-sr="wait 1s">El diseño de los distintos rubros de cada empresa es personalizado, generando de esta manera un estilo propio, con diseños exclusivos y el aporte de ideas innovadoras.<br><br>
+				<p data-sr="wait 1s">
+				El diseño de los distintos rubros de cada empresa es personalizado, 
+				generando de esta manera un estilo propio, 
+				con diseños exclusivos y el aporte de ideas innovadoras.<br><br>
 
-				Nuestro objetivo principal es brindar servicios de alta calidad en obras, privadas y públicas, que nos permitan ejercer una posición de liderazgo en la industria de la construcción Argentina.<br><br></p>
+				Nuestro objetivo es brindar servicios de la más alta calidad en obras,
+				 tanto privadas como públicas, que nos permitan ejercer una posición de 
+				 liderazgo en la industria de la construcción argentina.<br><br></p>
 			</div>
 		</div>
 	</div>
@@ -325,7 +248,7 @@
 	<div class="row">
 		<div class="col-sm-6 col-md-3">
       <div data-sr="wait 0.1s" class="contenedor">
-				<a href="alwind.html">
+				<a href="alwind.php">
 						<img class="back" src="img/servicios/alwind.jpg" alt="Servicio Alwind"/>
 						<div class="fondo"></div>
 						<div class="fondo-hover"></div>
@@ -339,7 +262,7 @@
 		</div>
 		<div class="col-sm-6 col-md-3">
 			<div data-sr="wait 0.3s" class="contenedor">
-				<a href="decoba.html">
+				<a href="decoba.php">
 						<img class="back" src="img/servicios/decoba.jpg" alt="Servicio Decoba" />
 						<div class="fondo"></div>
 						<div class="fondo-hover"></div>
@@ -353,7 +276,7 @@
 		</div>
 		<div class="col-sm-6 col-md-3">
 			<div data-sr="wait 0.5s" class="contenedor">
-				<a href="dems.html">
+				<a href="dems.php">
 					<img class="back" src="img/servicios/dems.jpg" alt="Servicio Dems"/>
 					<div class="fondo"></div>
 					<div class="fondo-hover"></div>
@@ -367,7 +290,7 @@
 		</div>
 		<div data-sr="wait 0.8s" class="col-sm-6 col-md-3">
 			<div class="contenedor">
-				<a href="drytech.html">
+				<a href="drytech.php">
 					<img class="back" src="img/servicios/drytech.jpg" alt="Servicio Drytech" />
 					<div class="fondo"></div>
 					<div class="fondo-hover"></div>
@@ -383,7 +306,7 @@
 	<div class="row">
 			<div class="col-sm-6 col-md-3">
 				<div data-sr="wait 1s" class="contenedor">
-					<a href="hormeix.html">
+					<a href="hormeix.php">
 						<img class="back" src="img/servicios/hormeix.jpg" alt="Servicio Hormeix"/>
 						<div class="fondo"></div>
 						<div class="fondo-hover"></div>
@@ -397,7 +320,7 @@
 			</div>
 			<div class="col-sm-6 col-md-3">
 				<div  data-sr="wait 1.3s"class="contenedor">
-					<a href="matgroup.html">
+					<a href="matgroup.php">
 						<img class="back" src="img/servicios/matgroup.jpg" alt="Servicio Matgroup" />
 						<div class="fondo"></div>
 						<div class="fondo-hover"></div>
@@ -411,7 +334,7 @@
 			</div>
 			<div class="col-sm-6 col-md-3">
 				<div data-sr="wait 1.5s" class="contenedor">
-					<a href="mt2.html">
+					<a href="mt2.php">
 						<img class="back" src="img/servicios/mt2.jpg" alt="Servicio MT2" />
 						<div class="fondo"></div>
 						<div class="fondo-hover"></div>
@@ -425,15 +348,15 @@
 			</div>
 			<div class="col-sm-6 col-md-3">
 				<div data-sr="wait 1.8s" class="contenedor">
-					<a href="urbanpro.html">
-						<img class="back" src="img/servicios/urbanpro.jpg" alt="Servicio Urbanpro" />
+					<a href="urbanpro.php">
+						<img class="back" src="img/servicios/urbanpro.jpg" alt="Servicio Hochbau" />
 						<div class="fondo"></div>
 						<div class="fondo-hover"></div>
-						<img class="logo" src="img/servicios/logo-urbapro-b.png" alto="Urbanpro" />
+						<img class="logo" src="img/servicios/logo-urbapro-b.png" alto="Hochbau" />
 						<div class="circulo">
 							<img class="logo-hover" src="img/servicios/120x90/urbapro.png" alt=" Logo Urbapro">
 						</div>
-						<img class="nombre" src="img/servicios/urbapro-c.png" alt="desarrollo y construcción">
+						<img class="nombre" src="img/servicios/hochbau-c.png" alt="desarrollo y construcción">
 					</a>
 				</div>
 			</div>

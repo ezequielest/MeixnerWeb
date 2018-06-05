@@ -11,9 +11,10 @@
 							<div class="datos">
 								<h3>Datos de contacto</h3>
 								<ul class="datos">
-									<li>Alberdi 75, 1878 Quilmes, Buenos Aires, Argentina</li>
+									<li>Alberdi 75. B1878KTA Quilmes. Buenos Aires. Argentina</li>
 									<li><a href="mailto:contacto@meixnergroup.com">contacto@meixnergroup.com</a></li>
-									<li>+54 (011) 4224-0785</li>
+                                    <li>+5411 4224 0785</li>
+                                    <li>+5411 3221 0735</li>
 								</ul>
 								<ul class="redes">
 									<li><a href="https://www.facebook.com/mt2arquitectura/"><span class="fa fa-facebook" aria-hidden="true"></span></a></li>
@@ -52,7 +53,7 @@
 <section id="copy" class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
-			 	<h5>© 2016 | Meixner Group</h5>
+			 	<h5>© <?php echo date('Y'); ?> | Meixner Group</h5>
 		</div>
 	</div>
 </section>

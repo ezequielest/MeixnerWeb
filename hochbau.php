@@ -2,12 +2,12 @@
 
 <section id="espacionav"></section>
 
-<section id="matgroup" class="container-fluid contenedor-servicios" data-sr="wait 0.2s">
+<section id="hochbau" class="container-fluid contenedor-servicios" data-sr="wait 0.2s">
 <div class="container">
 		<div class="row">
 				  <div class="col-md-12">
 						  <div class="contenedor">
-						      <img class="logo img-responsive" src="img/logos/matgroup.png"/>
+						      <img class="logo img-responsive" src="img/logos/hochbau.png"/>
 							</div>
 		      </div>
 		</div>
@@ -18,7 +18,7 @@
 		</div>
 		<div class="row">
 					<div class="col-sm-7 col-md-8 sin-right">
-            <div id="owl-matgroup" class="owl-carousel owl-theme">
+            <div id="owl-hochbau" class="owl-carousel owl-theme">
               <div class="item item1"></div>
               <div class="item item2"></div>
               <div class="item item3"></div>
@@ -36,8 +36,10 @@
 					</div>
           	<div class="col-sm-5 col-md-4 sin-left">
             	<div class="info">
-              		<h3 class="matgroup">Matgroup</h3>
-					<p data-sr="wait 0.2s">Estamos en presencia de nuestra División dedicada a la provisión, tanto al canal mayorista como al minorista de los materiales tradicionales de construcción, pero, también, de aquellos otros que gracias al diseño y el buen gusto, visten con elegancia y le dan una excelente calidad percibida a la obra finalizada.</p>
+              		<h3 class="hochbau">Hochbau</h3>
+					<p data-sr="wait 0.2s">Llegamos aquí a la última División, que, realmente debería ser la primera, porque es la que a partir del año 2001, inició las actividades de proyecto y dirección, generando en el tiempo a Urbanarq Sur S.R.L. como Empresa constructora. Esto da como resultado esta nueva División dedicada a la construcción.<br><br>
+
+					Contamos con un equipo de profesionales altamente calificados, lo que garantiza la rapidez y eficacia tanto para el desarrollo de las obras como así también para las soluciones técnicas.</p>
             	</div>
 			</div>
 		</div>

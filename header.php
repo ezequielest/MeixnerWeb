@@ -1,4 +1,10 @@
-<!--Update: 29-12-15-->
+<?php 
+    if ( !isset($_GET['page']) ) {
+        $page = "";
+    } else{
+        $page = $_GET['page'];
+    }
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +15,7 @@
 	<meta name="keywords" content="construccion de viviendas, departamentos, arquitectura, casas, edificios">
 	<meta name="description" content="Nos dedicamos a la proyección, dirección y construcción de obras, embarcándonos en desarrollos inmobiliarios">
 
-	<title>Alwind</title>
+	<title>Meixner Group</title>
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/fakeLoader.css">
@@ -76,13 +82,13 @@
 					</ul>-->
  					<div class="container-menu">
 						<ul id="menu" class="nav navbar-nav">
-							<li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
-							<li><a href="index.html#meix">Quienes somos</a></li>
-							<li><a href="portfolio.html">Proyectos</a></li>
-							<li class="active"><a href="index.html#servicios">Servicios</a></li>
-							<li><a href="index.html#clientes">Equipo</a></li>
-							<li><a href="index.html#prensa">Prensa</a></li>
-							<li><a href="#contacto">Contacto</a></li>
+							<li class="<?php echo ($page == "home" ? "active" : "")?>" ><a href="index.php?page=home">Home<span class="sr-only">(current)</span></a></li>
+							<li class="<?php echo ($page == "meix" ? "active" : "")?>" ><a href="index.php?page=meix#meix">Quienes somos</a></li>
+							<li class="<?php echo ($page == "porfolio" ? "active" : "")?>"><a href="portfolio.php?page=porfolio">Proyectos</a></li>
+							<li class="<?php echo ($page == "servicios" ? "active" : "")?>"><a href="index.php?page=servicios#servicios">Servicios</a></li>
+							<li class="<?php echo ($page == "clientes" ? "active" : "")?>"><a href="index.php?page=clientes#clientes">Equipo</a></li>
+							<li class="<?php echo ($page == "prensa" ? "active" : "")?>"><a href="index.php?page=prensa#prensa">Prensa</a></li>
+							<li class="<?php echo ($page == "contacto" ? "active" : "")?>"><a href="index.php?page=contacto#contacto">Contacto</a></li>
 						</ul>
 					</div>
 	</div>				
